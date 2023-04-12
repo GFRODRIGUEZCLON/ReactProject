@@ -7,6 +7,8 @@
   },
   "main": "/index.js",
   "devDependencies": {
+    "node-sass-chokidar": "^2.0.0",
+    "npm-run-all": "^4.1.5",
     "react-scripts": "1.0.0"
   },
   "keywords": [],
@@ -14,8 +16,11 @@
   "description": "multi-column layout o sistema de columnas responsive.",
   "version": "0.0.7",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+    "start-js": "react-scripts start",
+    "start": "npm-run-all -p watch-css start-js",
+    "build": "npm run build-css && react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
