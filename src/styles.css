@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px;
+  padding: 0;
+  background: rgb(2, 65, 102);
+}
+
+code {
+  font-size: 1.2em;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+b {
+  font-family: "DM Serif Display", sans-serif;
+  font-size: auto;
+}
+
+p {
+  font-family: "Roboto", "400";
+  font-size: auto;
+  margin: 0 5px 10px;
+  padding: 10px;
+  text-align: justify;
+  text-size-adjust: auto;
+  text-rendering: optimizeLegibility;
+}
+
+.material-symbols-outlined {
+  display: block;
+  margin: auto;
+  width: auto;
+  margin-top: 10px;
+  text-align: center;
+  text-shadow: 3px 1px 3px grey;
+}
+.columns {
+  display: inline-table;
+  box-sizing: border-box;
+  margin: 10px;
+  columns: auto;
+  column-fill: auto;
+  column-gap: auto;
+  background: rgb(173, 224, 253);
+  border-radius: 1rem;
+}
+
+.sectionApp {
+  box-sizing: border-box;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 1rem;
+  background: rgb(2, 65, 102);
+  height: auto;
+  width: unset;
+}
+
+.titleApp {
+  -webkit-text-fill-color: rgb(255, 255, 255);
+  font-size: 3em;
+  font-family: "Lobster";
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  animation-duration: 2s;
+  animation-name: slidein;
+  text-shadow: 5px 5px 7px black, 0 0 1em rgb(173, 224, 253),
+    0 0 0.2em rgb(2, 65, 102);
+  color: white;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.line {
+  border-top: 1px solid black;
+  height: 5px;
+  margin: 20px auto 0 auto;
+  max-width: auto;
+  background: rgb(2, 65, 102);
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: auto;
+  margin-top: 10px;
+  border-radius: 1rem;
+  box-shadow: 3px 1px 5px 1px grey;
+}
