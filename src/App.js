@@ -1,3 +1,4 @@
+import React from "react";
 import Gallery from "./gallery.js";
 import Animation from "./animation.js";
 
