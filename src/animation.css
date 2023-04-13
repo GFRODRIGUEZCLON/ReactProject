@@ -45,7 +45,12 @@
 .plane.main .circle:nth-child(3) {
   transform: rotateZ(216deg) rotateX(63.435deg);
 }
-
+.plane.main .circle:nth-child(4) {
+  transform: rotateZ(288deg) rotateX(63.435deg);
+}
+.plane.main .circle:nth-child(5) {
+  transform: rotateZ(360deg) rotateX(63.435deg);
+}
 
 @keyframes rotate {
   0% {
