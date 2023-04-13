@@ -9,7 +9,7 @@
 body {
   margin: 20px;
   padding: 0;
-  background: rgb(2, 65, 102);
+  background: #024166;
 }
 
 code {
@@ -41,7 +41,7 @@ p {
   width: auto;
   margin-top: 10px;
   text-align: center;
-  text-shadow: 3px 1px 3px grey;
+  text-shadow: 3px 1px 3px #808080;
 }
 .columns {
   display: inline-table;
@@ -50,7 +50,7 @@ p {
   columns: auto;
   column-fill: auto;
   column-gap: auto;
-  background: rgb(173, 224, 253);
+  background: #ade0fd;
   border-radius: 1rem;
 }
 
@@ -59,13 +59,13 @@ p {
   margin: 5px;
   padding: 5px;
   border-radius: 1rem;
-  background: rgb(2, 65, 102);
+  background: #024166;
   height: auto;
   width: unset;
 }
 
 .titleApp {
-  -webkit-text-fill-color: rgb(255, 255, 255);
+  -webkit-text-fill-color: #ffffff;
   font-size: 3em;
   font-family: "Lobster";
   text-align: center;
@@ -73,9 +73,9 @@ p {
   padding: 5px;
   animation-duration: 2s;
   animation-name: slidein;
-  text-shadow: 5px 5px 7px black, 0 0 1em rgb(173, 224, 253),
-    0 0 0.2em rgb(2, 65, 102);
-  color: white;
+  text-shadow: 5px 5px 7px #000000, 0 0 1em #ade0fd,
+    0 0 0.2em #024166;
+  color: #ffffff;
 }
 
 @keyframes slidein {
@@ -91,11 +91,11 @@ p {
 }
 
 .line {
-  border-top: 1px solid black;
+  border-top: 1px solid #000000;
   height: 5px;
   margin: 20px auto 0 auto;
   max-width: auto;
-  background: rgb(2, 65, 102);
+  background: #024166;
 }
 
 img {
@@ -104,5 +104,5 @@ img {
   width: auto;
   margin-top: 10px;
   border-radius: 1rem;
-  box-shadow: 3px 1px 5px 1px grey;
+  box-shadow: 3px 1px 5px 1px #808080;
 }
